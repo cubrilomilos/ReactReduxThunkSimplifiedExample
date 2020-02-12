@@ -1,5 +1,5 @@
 {
-  "name": "manual-batch-middleware-for-redux",
+  "name": "manual-subscribe-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
