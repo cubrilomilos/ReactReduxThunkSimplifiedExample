@@ -17,22 +17,6 @@ const updateSecond = (updatedObject) => {
     }
 }
 
-
-
-// const reduxThunkUpdateAllAction = (row) => {
-//     return (dispatch, getState) => {
-//         axiosMock.get().then(result => {
-//             const index = getState().dataRows.findIndex(r => r.id === row.id);
-//             const oldSum = getState().sidebarData;
-//             const sum = oldSum - parseInt(getState().dataRows[index].minutes) + parseInt(row.minutes);
-//             row.isEdited = true;
-//             dispatch(updateRowAction(row));
-//             dispatch(updateSidebarAction(sum));
-//             dispatch(updateFooterAction(row.id));
-//         });
-//     }
-// }
-
 export {
     updateFirst,
     updateSecond
